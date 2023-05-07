@@ -1,0 +1,17 @@
+{
+    "name": "Nike react",
+    "version": "1.0.0",
+    "description": "My first extention",
+    "manifest_version": 3,
+    "author": "shakil",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Nike React"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+    },
+    "host_permissions": [
+        "https://*/"
+    ]
+}
